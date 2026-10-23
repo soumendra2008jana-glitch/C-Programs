@@ -45,7 +45,7 @@ int main()
 
     // calloc() beheaves same like malloc()
 
-    // What is realloc()? Ans:- It modifies size of previously allocated heap memory. It does not if not used calloc or malloc previously
+    // What is realloc()? Ans:- It modifies size of previously allocated heap memory. It can't be applied if not used calloc or malloc previously
 
     p = (int *) realloc(p, 16 * sizeof(int)); // Syntax: pointer = (p_type *) realloc(which pointer, total size in bytes)
     // Extended memory from 10 elements to 16 elements
