@@ -2,7 +2,7 @@
 #include<ctype.h>
 int main()
 {
-    char text[] = "Sounendra Jana"; //Text to be counted
+    char text[] = "A quick brown fox jumped over the lazy dog"; //Text to be counted
     int count[26] = {0}; // Place to store frequency of occurence
     int i = 0,j=0, pos=0, length=0; // pos to find alphabate position in count[]
     char alpha = 'a'; // To print alphabates
